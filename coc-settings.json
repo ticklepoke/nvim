@@ -1,0 +1,18 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "scss",
+    "markdown",
+    "javascript",
+    "html",
+    "graphql",
+    "typescript",
+    "json",
+    "typescriptreact",
+    "javascriptreact",
+    "typescript.tsx"
+  ],
+  "suggest.noselect": false,
+  "html.autoClosingTags": true,
+  "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"]
+}

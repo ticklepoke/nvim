@@ -3,7 +3,7 @@
 My Javascript / Typescript / Angular based configuration for neovim.
 Works on ubuntu and manjaro. I usually run neovim within tmux.
 
-![Example](https://github.com/ticklepoke/nvim/blob/master/demo.gif)
+![Example](https://github.com/ticklepoke/nvim/blob/master/demo1.gif)
 
 # Usage
 

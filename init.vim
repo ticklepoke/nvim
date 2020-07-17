@@ -19,7 +19,15 @@ Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
+Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
 call plug#end()
+
+" Git status
+nmap <leader>gs :G<CR>
+" Git conflict choose right
+nmap <leader>gj :diffget //3<CR>
+" Git conflict choose left
+nmap <leader>gf :diffget //2<CR>
 
 source ~/.config/nvim/general.vim
 source ~/.config/nvim/keybindings.vim

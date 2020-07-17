@@ -5,7 +5,7 @@ syntax on
 set hidden                          "hide files rather than close them
 set noerrorbells
 set background=dark
-set relativenumber 
+set number relativenumber 
 set title
 set fileencoding=utf-8
 set termguicolors

@@ -86,7 +86,11 @@ cd ~/.config && git clone https://github.com/ticklepoke/nvim.git
 
 ## Code Completion
 
-Coming soon
+Code completion is mostly handled by [coc](https://github.com/neoclide/coc.nvim).
+
+    ```
+    :CocInstall coc-angular coc-css coc-git coc-html coc-json coc-markdownlint coc-pairs coc-prettier coc-sh coc-snippets coc-tsserver
+    ```
 
 ## Key Mappings
 

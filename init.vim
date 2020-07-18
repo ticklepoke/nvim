@@ -20,6 +20,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 

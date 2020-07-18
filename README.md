@@ -94,4 +94,32 @@ Code completion is mostly handled by [coc](https://github.com/neoclide/coc.nvim)
 
 ## Key Mappings
 
-Coming soon
+### General
+
+- Resize: `alt - h / j / k / l`
+
+### Buffer
+
+- Change buffer: `tab / shift-tab`
+- Close buffer: `\-w`
+- List buffers: `\-b`
+
+### Code Editing
+
+- Trigger suggestions: `ctrl-space`
+- Go to definition: `F12`
+- Show documentation: `K`
+
+### Files
+
+- Toggle nerdtree: `Ctrl-n`
+- Find file: `Ctrl-p`
+- Find text: `Ctrl-f`
+
+### Git
+
+- Git status: `\gs`
+- Git stage: `s` apply on specific files within git status menu
+- Git unstage: `u` apply on specific files within git status menu
+- Git commit: `cc` apply on staged files
+- Git push: `-` apply on commit lines

@@ -10,7 +10,8 @@
     "json",
     "typescriptreact",
     "javascriptreact",
-    "typescript.tsx"
+    "typescript.tsx",
+    "go"
   ],
   "suggest.noselect": false,
   "html.autoClosingTags": true,

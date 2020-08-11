@@ -21,6 +21,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
 Plug 'sheerun/vim-polyglot'
+Plug 'kristijanhusak/vim-carbon-now-sh'
 call plug#end()
 
 
@@ -33,5 +34,5 @@ source ~/.config/nvim/airline.vim
 source ~/.config/nvim/fzf.vim
 source ~/.config/nvim/vimrooter.vim
 source ~/.config/nvim/fugitive.vim
-
+source ~/.config/nvim/carbonnowsh.vim
 

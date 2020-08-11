@@ -1,6 +1,8 @@
 " NERD TREE =================================================================
 " launch nerd tree on startup
 autocmd vimenter * NERDTree 
+" Jump to the main window.
+autocmd VimEnter * wincmd p
 "map nerd tree to ctrl n
 map <C-n> :NERDTreeToggle<CR>
 nnoremap \w :bp<cr>:bd #<cr>

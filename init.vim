@@ -11,19 +11,20 @@ Plug 'HerringtonDarkholme/yats.vim'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'ryanoasis/vim-devicons'
+"Plug 'ryanoasis/vim-devicons'
 "Plug 'ctrlpvim/ctrlp.vim'
 Plug 'preservim/nerdcommenter'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
-Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
+"Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
 Plug 'sheerun/vim-polyglot'
 Plug 'kristijanhusak/vim-carbon-now-sh'
 call plug#end()
 
+let g:tex_flavor = 'latex'
 
 source ~/.config/nvim/general.vim
 source ~/.config/nvim/keybindings.vim

@@ -1,1 +1,2 @@
-let g:airline#extensions#tabline#enabled=1
+" AIRLINE ===================================================================
+let g:airline#extensions#tabline#enabled = 1

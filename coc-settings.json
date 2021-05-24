@@ -1,0 +1,23 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "scss",
+    "markdown",
+    "javascript",
+    "html",
+    "graphql",
+    "typescript",
+    "json",
+    "typescriptreact",
+    "javascriptreact",
+    "typescript.tsx",
+    "go",
+    "json",
+    "rust"
+  ],
+  "suggest.noselect": false,
+  "html.autoClosingTags": true,
+  "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"],
+  "eslint.format.enable": true,
+  "eslint.packageManager": "yarn"
+}
